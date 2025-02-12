@@ -13,14 +13,14 @@ markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
 
-$T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$
+$g(n) \in O(f(n)) \iff \exists c, n_0: g(n) \leq c \cdot f(n) \forall n \geq n_0$
 
 Using change of base:
 
 $log_5(n) = log_2(n)/{log_2(5)}$
 
-Using the big O definition, we must prove $T(n) \leq c \cdot f(n)$, we can set $c = 1/{log_2(5)}$  , $T(n) = log_5(n)$  and $f(n) = log_2(n)$ :
+Using the big O definition, we must prove $g(n) \leq c \cdot f(n)$, we can set $c = 1/{log_2(5)}$  , $g(n) = log_5(n)$  and $f(n) = log_2(n)$ :
 
-$log_5(n) = c * log_2(n)$
+$g(n) \leq c * f(n)$
 
 This fulfills the definition of big O and therefor proves that a difference in base does not affect the asymptotic complexity of an algorithm.
