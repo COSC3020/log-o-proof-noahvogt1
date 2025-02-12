@@ -14,3 +14,11 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$
+
+Using change of base:
+
+$log_5(n) = log_2(n)/{log_2(5)}$
+
+Using the big O definition, we must prove $T(n) \leq c \cdot f(n)$, we can set $c = 1/{log_2(5)}$  abd  :
+
+$log_5(n) = c * log_2(n)$
