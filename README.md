@@ -19,6 +19,6 @@ Using change of base:
 
 $log_5(n) = log_2(n)/{log_2(5)}$
 
-Using the big O definition, we must prove $T(n) \leq c \cdot f(n)$, we can set $c = 1/{log_2(5)}$  abd  :
+Using the big O definition, we must prove $T(n) \leq c \cdot f(n)$, we can set $c = 1/{log_2(5)}$  , $T(n) = log_5(n)$  and $f(n) = log_2(n)$ :
 
 $log_5(n) = c * log_2(n)$
