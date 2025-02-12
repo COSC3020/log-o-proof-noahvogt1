@@ -22,3 +22,5 @@ $log_5(n) = log_2(n)/{log_2(5)}$
 Using the big O definition, we must prove $T(n) \leq c \cdot f(n)$, we can set $c = 1/{log_2(5)}$  , $T(n) = log_5(n)$  and $f(n) = log_2(n)$ :
 
 $log_5(n) = c * log_2(n)$
+
+This fulfills the definition of big O and therefor proves that a difference in base does not affect the asymptotic complexity of an algorithm.
