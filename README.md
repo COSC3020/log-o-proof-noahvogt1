@@ -1,4 +1,7 @@
 # Asymptotic Equivalences
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+I overheard gage my classmate talking about using change of base. I am not sure if I will use it in this but it seems like it could be useful.
 
 In the lectures, we said that logarithms with different bases don't affect the
 asymptotic complexity of an algorithm. Prove that $O(\log_{2} n)$ is the same as
