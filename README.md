@@ -23,4 +23,14 @@ Using the big O definition, we must prove $g(n) \leq c \cdot f(n)$, we can set $
 
 $g(n) \leq c * f(n)$
 
+However, we must prove this both ways:
+
+${log_2(5)} * log_5(n) = log_2(n)$
+
+$log_2(n) = {log_2(5)} * log_5(n)$
+
+Using the big O definition, we must prove $g(n) \leq c \cdot f(n)$, we can set $c = {log_2(5)}$  , $g(n) = log_2(n)$  and $f(n) = log_5(n)$ :
+
+$g(n) \leq c * f(n)$
+
 This fulfills the definition of big O and therefor proves that a difference in base does not affect the asymptotic complexity of an algorithm.
