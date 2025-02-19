@@ -25,6 +25,8 @@ $g(n) \leq c * f(n)$
 
 However, we must prove this both ways:
 
+$log_5(n) = log_2(n)/{log_2(5)}$
+
 ${log_2(5)} * log_5(n) = log_2(n)$
 
 $log_2(n) = {log_2(5)} * log_5(n)$
