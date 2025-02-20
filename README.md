@@ -27,4 +27,11 @@ Using the big O definition, $g(n) \leq c \cdot f(n)$, we can set $c = 1/{log_a(b
 
 $g(n) \leq c * f(n)$
 
-This fulfills the definition of big O and therefor proves that a difference in base does not affect the asymptotic complexity of an algorithm.
+This fulfills the definition of big O and therefor proves that a difference in logarithmic base does not affect the asymptotic complexity of an algorithm.
+To show now that $O(\log_{2} n)$ is the same as $O(\log_{5} n)$, we must simply choose our a and b values.
+
+Let $a = 2$  and $b = 5$, using change of bases:
+
+$log_2(n) = log_2(n)/{log_2(5)}$
+
+Letting $c = 1/{log_2(5)}$, we now know that $O(log_2(n)) = O(log_5(n)), using the definition of $O$
