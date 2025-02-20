@@ -34,4 +34,4 @@ Let $a = 2$  and $b = 5$, using change of bases:
 
 $log_2(n) = log_2(n)/{log_2(5)}$
 
-Letting $c = 1/{log_2(5)}$, we now know that $O(log_2(n)) = O(log_5(n)), using the definition of $O$
+Letting $c = 1/{log_2(5)}$, we now know that $O(log_2(n)) = O(log_5(n))$, using the definition of $O$
