@@ -15,23 +15,15 @@ might help with the notation for mathematical expressions.
 
 $g(n) \in O(f(n)) \iff \exists c, n_0: g(n) \leq c \cdot f(n) \forall n \geq n_0$
 
+Lets use the arbitrary function $log_a(n)$  and $log_b(n)$ for all constants $a$  and $b$ such that $a > b$,
+
+We must prove that $O(log_a(n)) = O(log_b(n))$
+
 Using change of base:
 
-$log_5(n) = log_2(n)/{log_2(5)}$
+$log_a(n) = log_a(n)/{log_a(b)}$
 
-Using the big O definition, we must prove $g(n) \leq c \cdot f(n)$, we can set $c = 1/{log_2(5)}$  , $g(n) = log_5(n)$  and $f(n) = log_2(n)$ :
-
-$g(n) \leq c * f(n)$
-
-However, we must prove this both ways:
-
-$log_5(n) = log_2(n)/{log_2(5)}$
-
-${log_2(5)} * log_5(n) = log_2(n)$
-
-$log_2(n) = {log_2(5)} * log_5(n)$
-
-Using the big O definition, we must prove $g(n) \leq c \cdot f(n)$, we can set $c = {log_2(5)}$  , $g(n) = log_2(n)$  and $f(n) = log_5(n)$ :
+Using the big O definition, $g(n) \leq c \cdot f(n)$, we can set $c = 1/{log_a(b)}$  , $g(n) = log_a(n)$  and $f(n) = log_b(n)$  to show:
 
 $g(n) \leq c * f(n)$
 
