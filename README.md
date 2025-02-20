@@ -21,11 +21,11 @@ and that $f(n) \in O(\log_{5} n)$.
 
 Let $f(n) \in O(\log_2 n)$. Using the definition of Big O, this means there is a constant c such that $f(n) \leq c \log_2 n$.
 Using change of base: $\log_2 n = {\log_5 n}/{\log_5 2}$, we can substitute to get, $f(n) \leq c {\log_5 n}/{\log_5 2}$. Since
-c is defined as any constant $c \g 0$, we can take $c = c/{\log_5 2}$. Thus, $f(n) \leq c {\log_5 n}$  proving $f(n) \in O(\log_2 n)$.
+c is defined as any constant $c > 0$, we can take $c = c/{\log_5 2}$. Thus, $f(n) \leq c {\log_5 n}$  proving $f(n) \in O(\log_2 n)$.
 
 Again, let $f(n) \in O(\log_5 n)$. Using the definition of Big O, this means there is a constant c such that $f(n) \leq c \log_5 n$.
 Using change of base: $\log_5 n = {\log_2 n}/{\log_2 5}$, we can substitute to get, $f(n) \leq c {\log_2 n}/{\log_2 5}$. Since
-c is defined as any constant $c \g 0$, we can take $c = c/{\log_2 5}$. Thus, $f(n) \leq c {\log_2 n}$  proving $f(n) \in O(\log_5 n)$.
+c is defined as any constant $c > 0$, we can take $c = c/{\log_2 5}$. Thus, $f(n) \leq c {\log_2 n}$  proving $f(n) \in O(\log_5 n)$.
 
 This proves that $O(\log_2 n) = O(\log_5 n)$ because they are both an element of each other. Therefor they are asymtotically equivalent.
 
